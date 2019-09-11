@@ -23,7 +23,7 @@ def kill_yarn_queries(ip, apiver, user, passwd, clusterName, queryStr, appId):
     return res
 
 def main():
-    IP = "10.8.22.223:7180"
+    IP = "10.8.12.22:7180"
     APIVER = "/api/v18"
     USER = "admin"
     PASSWD = "passwdor"
